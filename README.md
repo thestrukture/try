@@ -1,6 +1,8 @@
 # try
 A go package that offers a try/catch statement block.
 
+[Documentation](https://godoc.org/github.com/thestrukture/try)
+
 
 Here is a sample program making use of the try package. In this sample, variables in scope are accessed to demonstrate how this package interacts with your program.
 
