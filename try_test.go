@@ -71,7 +71,7 @@ func TestCatch(t *testing.T) {
 
 			tryStatement := Run(tryFunction).Catch(tt.function)
 
-			if tryStatement.run == nil {
+			if tryStatement.errorHandler == nil {
 				t.Errorf("got %v, want %v", tryStatement.errorHandler, tryFunction)
 			}
 		})
